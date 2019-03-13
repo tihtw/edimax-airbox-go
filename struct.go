@@ -19,7 +19,7 @@ type Device struct {
 	Co        float64 `json:"co"`
 	T         float64 `json:"t"`
 	H         float64 `json:"h"`
-	Time      float64 `json:"time"`
+	Time      string  `json:"time"`
 	UtcTime   string  `json:"utc_time"`
 	Org       string  `json:"org"`
 	Area      string  `json:"area"`
